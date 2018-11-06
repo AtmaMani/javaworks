@@ -2,7 +2,7 @@ package com.amani;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void varPractice() {
 
         //byte variable
         byte bVal = 56;
@@ -21,5 +21,23 @@ public class Main {
 
         //print
         System.out.println(lResult);
+    }
+
+    public static void varPractice2()
+    {
+        float pounds = 148f;
+        float kilos = pounds * 0.453f;
+        System.out.println("weight in kilos: " + kilos);
+
+    }
+
+    public static void varChar()
+    {
+        char register = '\u00AE'; //single quote, not double
+        System.out.println(register);
+    }
+    public static void main (String[] args)
+    {
+        varChar();
     }
 }
